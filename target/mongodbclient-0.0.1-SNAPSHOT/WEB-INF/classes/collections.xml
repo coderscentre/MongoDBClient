@@ -1,0 +1,18 @@
+<?xml version="1.0" ?> 
+<mongodbcollections>
+  		<mongodbcollection name="Item_Details">
+     		<record>{ Item_Id: 101, Item_Name: "Sony Bravia", Item_Description: "43 Inch LCD" }</record>
+     		<record>{ Item_Id: 102, Item_Name: "Samsung TV", Item_Description: "40 Inch LCD" }</record>
+     		<record>{ Item_Id: 103, Item_Name: "LG TV", Item_Description: "43 Inch LCD" }</record>
+  		</mongodbcollection>
+  			<mongodbcollection name="Item_Supply">
+     		<record>{ Supply_Id: 201 , Item_Id: 101, Item_Quantity: 100 }</record>
+     		<record>{ Supply_Id: 202 , Item_Id: 102, Item_Quantity: 50 }</record>
+     		<record>{ Supply_Id: 203 , Item_Id: 103, Item_Quantity: 50 }</record>
+  		</mongodbcollection>
+  		<mongodbcollection name="Item_Demand">
+     		<record>{ Supply_Id: 301, Item_Id: 101 , Item_Quantity: 50 }</record>
+     		<record>{ Supply_Id: 302, Item_Id: 102 , Item_Quantity: 10 }</record>
+     		<record>{ Supply_Id: 303, Item_Id: 103 , Item_Quantity: 10 }</record>
+  		</mongodbcollection>
+</mongodbcollections>

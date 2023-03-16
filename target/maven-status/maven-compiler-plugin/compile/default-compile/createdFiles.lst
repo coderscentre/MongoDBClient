@@ -1,0 +1,8 @@
+api/Inventory_Details.class
+mongodbclient/mongodb/testmain.class
+utility/XMLOperations.class
+api/Inventory.class
+utility/FileProcessor.class
+mongodbclient/mongodb/MongoDBDriver.class
+utility/Utility.class
+utility/Converter.class
